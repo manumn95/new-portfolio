@@ -1,0 +1,23 @@
+.logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+
+  cursor: none;
+}
+
+.btn1 {
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%);
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+  width: 150px;
+}
+
+.btn1:hover {
+  transform: scale(1.15);
+}
+.background{
+  background-color: #161513;
+}
+

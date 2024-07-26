@@ -1,0 +1,23 @@
+.custom {
+  border: 1px solid #b923e1;
+}
+
+.container-animation{
+  animation: glowing 2s infinite;
+}
+@keyframes glowing {
+  0% {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 0 5px #ff00ff, 0 0 5px #ff00ff, 0 0 5px #ff00ff;
+  }
+  50% {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px #da7c25, 0 0 5px #da7c25, 0 0 5px #da7c25;
+  }
+  100% {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 10px #ff00ff, 0 0 5px #ff00ff, 0 0 5px #ff00ff;
+  }
+}
+
+.image-style{
+ width:100%;
+ height: 150px;
+}
