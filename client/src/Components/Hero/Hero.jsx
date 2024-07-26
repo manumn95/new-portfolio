@@ -39,12 +39,14 @@ const Hero = () => {
             />
           </p>
           <p className="text-secondary">
-            To seek and maintain full-time position that offers professional
-            challenges utilizing interpersonal skills, excellent time management
-            and problem-solving skills. Hardworking and passionate job seeker
-            with strong organizational skills eager to secure entry-level as
-            Frontend or fullstack MERN developer position. Ready to help team
-            achieve company goals
+            A passionate MERN Full Stack Developer with a strong focus on
+            frontend development using React. Expertise lies in crafting
+            dynamic, responsive web applications with keen attention to detail.
+            Committed to delivering high-quality, user-centric solutions and
+            thriving in collaborative environments. Continuously seeking
+            opportunities to enhance skills and stay updated with industry
+            advancements, aiming to leverage MERN stack and React expertise to
+            drive innovation and contribute to impactful projects.
           </p>
           <div>
             <a

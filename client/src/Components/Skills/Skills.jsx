@@ -9,6 +9,8 @@ import mongodb from "../../assets/mongodb.png";
 import mysql from "../../assets/mysql.png";
 import git from "../../assets/git.png";
 import netlify from "../../assets/netlify.png";
+import tailwind from "../../assets/tailwind.png";
+import redux from "../../assets/redux.jpeg";
 
 const Skills = () => {
   return (
@@ -16,7 +18,7 @@ const Skills = () => {
       <div className="container" id="skills">
         <h1 className="gradient-Text text-center mt-5">Skills</h1>
         <div className="row mt-5 ">
-          <div className="d-flex flex-wrap justify-content-evenly">
+          <div className="d-flex flex-wrap justify-content-center">
             <div className="skill-container fs-3">
               <div className="p-5">
                 <img src={html}></img>
@@ -93,6 +95,28 @@ const Skills = () => {
                 <p>Netlify</p>
               </div>
             </div>
+
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img
+                  src={tailwind}
+                  style={{ width: "48px", height: "48px" }}
+                ></img>
+                <p>Tailwind CSS</p>
+              </div>
+            </div>
+
+            <div className="skill-container fs-3">
+              <div className=" p-5">
+                <img
+                  src={redux}
+                  style={{ width: "48px", height: "48px" }}
+                ></img>
+                <p>Redux</p>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
